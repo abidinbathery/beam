@@ -1,0 +1,11 @@
+input {
+    width: 100%;
+  }
+.username{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0px;
+  box-sizing: border-box;
+  border: 2px solid rgb(141, 205, 235);
+  border-radius: 4px;
+}
