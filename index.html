@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <form action="submit.php" method="post">
+        <label for="username" >username</label><br>
+        <input type="username" name="username" value=""><br>
+        <label for="password">password</label><br>
+        <input type="password" name="password" id="pwd" value=""> <br>
+        <textarea name="txtbox" id="txtbox" cols="30" rows="10"placeholder='type your content'></textarea><br>
+      <select name="drpdwn" id="drpdwn">select a number
+        <option value="1">opt1</option>
+        <option value="2">opt2</option>
+        <option value="3">opt3</option>
+      </select>
+      <p>please select one of this</p>
+      <input type="radio" name="radio" id="radio" value="c1">c1
+      <input type="radio" name="radio" id="radio" value="c2">c2
+      <input type="radio" name="radio" id="radio" value="c3">c3
+      <p>please select which you want</p>.
+      <input type="checkbox" name="chkbx" id="chkbx">m1
+      <input type="checkbox" name="chkbx" id="chkbx">m2
+      <input type="checkbox" name="chkbx" id="chkbx">m3
+      <br>
+
+      <!--html 5 opereations--> 
+      <input type="number" name="age" id="age" value="age" min="0" max="60" placeholder="select your age"><br>
+      <input type="date" name="date" id="date"><br>
+      <input type="email" name="email" id="email"><br>
+      <input type="color" name="color" id="color"><br>
+      <input type="datetime" name="datetime" id="datetime"><br>
+      <input type="url" name="url" id="url"><br>
+      <!--submit button --> 
+       <input type="submit" name="sbmtbtn" id="snmtbtn" value="submit"><br>
+    </form>
+</body>
+</html>
